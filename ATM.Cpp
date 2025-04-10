@@ -7,13 +7,12 @@ int new_transaction;
 
 
 
-// Initialising the balance amount as 0.
+
 
 float balance_amount = 0.0;
 
 
 
-// Function for operations in ATM Machine
 
 void atm_machine_transaction(){
 
@@ -27,15 +26,7 @@ void atm_machine_transaction(){
 
     cout << "\n";
 
-    /*
-
-        Take an appropriate option to select which operation
-
-        you want to be performed by the ATM Machine.
-
-    */
-
-   
+  
 
     int option;
 
@@ -53,7 +44,7 @@ void atm_machine_transaction(){
 
     {
 
-        // Case for Depositing money
+      
 
         case 1:
 
@@ -83,8 +74,7 @@ void atm_machine_transaction(){
 
        
 
-        // Case for Money Withdrawal
-
+        
         case 2:
 
             cout << "\nPlease enter amount to withdraw: ";
@@ -137,8 +127,7 @@ void atm_machine_transaction(){
 
        
 
-        // Case for checking current bank amount
-
+       
         case 3:
 
             cout << "Your current bank balance is: " << balance_amount << endl;
